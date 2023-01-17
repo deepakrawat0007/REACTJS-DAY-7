@@ -1,0 +1,52 @@
+body{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    margin-top: 10%;
+    background-color: antiquewhite;
+    width: 40vw;
+    border: 2px solid gray;
+    box-shadow: 10px 10px 10px 10px;
+
+}
+
+form input , button{
+    width: 25vw;
+    padding: 1em;
+    margin: 1em;
+    margin-left: 6vw;
+}
+button{
+    margin-left: 7vw;
+    background-color:lightgreen;
+    color: white;
+    outline-offset: none;
+    outline-style: none;
+    border: 0;
+    margin-bottom: 1.5em;
+}
+.firstname{
+    margin-top: 5%;
+
+}
+.err{
+    color: red;
+    margin:0;
+    margin-left: 15%;
+}
+.success{
+    margin-left: 15%;
+    border: 1px solid skyblue;
+    width: 27.3vw;
+    height: 6vh;
+    text-align: center;
+    padding: 5px;
+    background-color: lightblue;
+    color: white;
+}
+button:hover{
+    background-color: green;
+    cursor: pointer;
+}
